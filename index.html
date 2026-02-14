@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Do you love me?</title>
+</head>
+<body>
+
+<!-- Floating Hearts Background -->
+<div class="hearts-container" id="heartsContainer"></div>
+
+<!-- Sparkles Container -->
+<div class="sparkles-container" id="sparklesContainer"></div>
+
+<div class="question-container container">
+  <!-- Animated Emoji Display instead of video -->
+  <div class="emoji-display">
+    <span class="emoji anime-1">😘</span>
+    <span class="emoji anime-2">💕</span>
+    <span class="emoji anime-3">💖</span>
+  </div>
+  <h2 class="question">Do you love me Kashish?🥹👀🥺</h2>
+  <div class="button-container">
+    <button class="yes-btn btn js-yes-btn">
+      <span class="btn-text">Yes</span>
+      <span class="btn-heart">❤️</span>
+    </button>
+    <button class="no-btn btn js-no-btn">
+      <span class="btn-text">No😞</span>
+    </button>
+  </div>
+</div>
+
+<div class="result-container container">
+  <!-- Animated celebration emojis -->
+  <div class="result-emoji-display">
+    <span class="result-emoji bounce-1">😍</span>
+    <span class="result-emoji bounce-2">💕</span>
+    <span class="result-emoji bounce-3">💖</span>
+    <span class="result-emoji bounce-4">💗</span>
+    <span class="result-emoji bounce-5">💘</span>
+  </div>
+  <h2 class="result-text">I knew it!</h2>
+  <div class="hearts-rain" id="heartsRain"></div>
+</div>
+
+<div class="cssload-main">
+  <div class="cssload-heart">
+    <span class="cssload-heartL"></span>
+    <span class="cssload-heartR"></span>
+    <span class="cssload-square"></span>
+  </div>
+  <div class="cssload-shadow"></div>
+</div>
+
+<!-- Confetti Canvas -->
+<canvas id="confettiCanvas"></canvas>
+
+<script src="index.js"></script>
+</body>
+</html>
+
